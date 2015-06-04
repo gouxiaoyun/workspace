@@ -1,0 +1,15 @@
+#!/bin/bash
+date
+who
+
+day=10
+echo $day
+
+
+echo $HOME
+
+a=`date`
+echo $a
+
+today=`date +%y%m%d`
+ls -al > log.$today
